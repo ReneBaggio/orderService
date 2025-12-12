@@ -1,4 +1,4 @@
-package com.orderservice.infrastructure.web.validation;
+package com.orderservice.infrastructure.validation;
 
 import com.orderservice.shared.Result;
 import org.springframework.http.ResponseEntity;
