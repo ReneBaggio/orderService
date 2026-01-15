@@ -1,7 +1,9 @@
 package com.orders.application.factories;
 
 import com.orders.domain.services.contexts.OrderValidationContext;
+import org.springframework.stereotype.Component;
 
+@Component
 public final class OrderValidationContextFactory {
 
     //We use a Port to get the info from the Database

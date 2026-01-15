@@ -1,7 +1,9 @@
 package com.orders.application.factories;
 
 import com.orders.domain.services.contexts.OrderCalculationContext;
+import org.springframework.stereotype.Component;
 
+@Component
 public final class OrderCalculationContextFactory {
 
     //We use a Port to get the info from the Database
